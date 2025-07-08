@@ -1,16 +1,12 @@
-Anticipating Surgical Actions Using Deep Learning
-Master’s Final Year Dissertation Project – Biomedical Engineering, King's College London
-Achieved an overall grade of 80%
+<p>
+  This project explores the application of <strong>Deep Learning</strong> to 
+  anticipate surgeons’ next actions during <em>laparoscopic procedures</em>, 
+  contributing to the emerging field of <strong>intra-operative AI</strong>. 
+  While AI has made major advances in <strong>medical diagnostics</strong>, 
+  its integration into the <strong>surgical workflow</strong> remains limited. 
+  This work aims to bridge that gap.
+</p>
 
-Project Summary
-This project explores the application of Deep Learning to anticipate surgeons’ next actions during laparoscopic procedures, contributing to the emerging field of intra-operative AI. While AI has made major advances in medical diagnostics, its integration into the surgical workflow remains limited. This work aims to bridge that gap.
-
-Objectives
-Develop a deep learning model to predict surgeons’ next steps during laparoscopic surgery.
-
-Explore architectural improvements and training strategies that push anticipation performance forward.
-
-Lay the groundwork for future intra-operative AI research.
 
 Model Architecture
   ResNet-50 feature extractor
