@@ -98,7 +98,7 @@
 ![image](https://github.com/user-attachments/assets/ed3c4455-fcf0-42dc-ac03-526d19d99799)
 
 <p>
-  <strong>Figure 1 Example:</strong> Each frame is read left to right. Above each frame: frame number. Below:
+  <strong>Above Example:</strong> Each frame is read left to right. Above each frame: frame number. Below:
 </p>
 <ul>
   <li><strong>Center row:</strong> Model's predicted triplet sequences.</li>
