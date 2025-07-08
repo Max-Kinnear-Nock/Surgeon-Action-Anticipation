@@ -1,42 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Predicting Surgeons’ Next Actions with Deep Learning</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      color: #333;
-    }
-
-    h1, h2 {
-      color: #2c3e50;
-    }
-
-    ul {
-      padding-left: 1.5rem;
-    }
-
-    li {
-      margin-bottom: 0.5rem;
-    }
-
-    em {
-      color: #555;
-    }
-
-    strong {
-      color: #000;
-    }
-  </style>
-</head>
-<body>
-
-  <h1>Predicting Surgeons’ Next Actions with Deep Learning</h1>
+ <h1>Predicting Surgeons’ Next Actions with Deep Learning</h1>
 
   <p>
     This project explores the application of <strong>Deep Learning</strong> to 
