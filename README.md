@@ -9,6 +9,86 @@
     This work aims to bridge that gap.
   </p>
 
+ <h2>CholecT50 Dataset</h2>
+<p>
+  The <strong>CholecT50</strong> dataset supports deep learning models for 
+  <em>fine-grained surgical action recognition</em>. It includes 
+  <strong>50 full-length laparoscopic cholecystectomy (LC) surgeries</strong>, 
+  each recorded from the surgeon’s perspective. Every video frame is annotated with:
+</p>
+<ul>
+  <li><strong>Surgical phase</strong></li>
+  <li><strong>Tool positions</strong></li>
+  <li><strong>Action triplets</strong></li>
+</ul>
+<p>
+  The dataset was used in the <strong>CholecT50 Challenge (2021–2022)</strong> to promote 
+  the development of high-accuracy intra-operative AI systems. Although all procedures come 
+  from the same hospital (limiting generalisability), CholecT50 remains one of the most detailed 
+  open benchmarks in <em>Surgical Data Science (SDS)</em>.
+</p>
+
+<h2>🔗 Action Triplet Format: &lt;Instrument, Verb, Target&gt;</h2>
+<p>
+  Each frame includes up to <strong>three simultaneous triplets</strong>, one per surgical trocar. 
+  Each triplet follows the format:
+</p>
+<pre><code>&lt;Instrument, Verb, Target&gt;</code></pre>
+<p>
+  Below is a breakdown of each component:
+</p>
+
+<h3>🛠Instrument (I)</h3>
+<p>Tool being used in the action:</p>
+<ul>
+  <li>grasper</li>
+  <li>bipolar</li>
+  <li>scissors</li>
+  <li>hook</li>
+  <li>clipper</li>
+  <li>irrigator</li>
+  <li>specimen_bag</li>
+  <li>null_instrument <em>(if no tool is present)</em></li>
+</ul>
+
+<h3>Verb (V)</h3>
+<p>Surgical action or gesture:</p>
+<ul>
+  <li>grasps</li>
+  <li>cuts</li>
+  <li>coagulates</li>
+  <li>clips</li>
+  <li>retracts</li>
+  <li>irrigates</li>
+  <li>aspirates</li>
+  <li>removes</li>
+  <li>dissects</li>
+  <li>null_verb <em>(if no action is happening)</em></li>
+</ul>
+
+<h3>Target (T)</h3>
+<p>Anatomical or surgical target of the action:</p>
+<ul>
+  <li>gallbladder</li>
+  <li>cystic_duct</li>
+  <li>cystic_artery</li>
+  <li>peritoneum</li>
+  <li>liver</li>
+  <li>hepatocystic_triangle</li>
+  <li>gallbladder_wall</li>
+  <li>clip</li>
+  <li>adhesion</li>
+  <li>null_target <em>(if no target is specified)</em></li>
+</ul>
+
+<h3>Example Triplet</h3>
+<pre><code>&lt;grasper, retracts, gallbladder&gt;</code></pre>
+<p>
+  This indicates the <strong>grasper</strong> is being used to <strong>retract</strong> 
+  the <strong>gallbladder</strong> in that frame.
+</p>
+
+
   <h2>Model Architecture</h2>
   <ul>
     <li><strong>ResNet-50</strong> feature extractor</li>
