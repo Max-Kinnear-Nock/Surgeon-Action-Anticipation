@@ -111,7 +111,7 @@
 </p>
 
 
-<h3>📊 4.1 Accuracy Comparison</h3>
+<h3>Accuracy Comparison</h3>
 
 <p>
   The table below compares mAP scores for <strong>component detection</strong> (I, V, T) and <strong>triplet association</strong> (IV, IT, IVT) across state-of-the-art models and our proposed approach.
