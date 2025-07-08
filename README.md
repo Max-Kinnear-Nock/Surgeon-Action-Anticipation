@@ -82,7 +82,10 @@
 </ul>
 
 <h3>Example Triplet</h3>
-<pre><code>&lt;grasper, retracts, gallbladder&gt;</code></pre>
+
+![image](https://github.com/user-attachments/assets/c4495faf-7a62-4045-bc03-12cfafa2598a)
+
+<pre><code>&lt;bipolar, coagulate, liver&gt;</code></pre>
 <p>
   This indicates the <strong>grasper</strong> is being used to <strong>retract</strong> 
   the <strong>gallbladder</strong> in that frame.
