@@ -28,7 +28,7 @@
   open benchmarks in <em>Surgical Data Science (SDS)</em>.
 </p>
 
-<h2>🔗 Action Triplet Format: &lt;Instrument, Verb, Target&gt;</h2>
+<h2>Action Triplet Format: &lt;Instrument, Verb, Target&gt;</h2>
 <p>
   Each frame includes up to <strong>three simultaneous triplets</strong>, one per surgical trocar. 
   Each triplet follows the format:
@@ -275,7 +275,7 @@
 </p>
 
 
-📁 Repository Contents
+Repository Contents
 Folder	Description
 models/	Model components
 training/	Training + evaluation scripts
