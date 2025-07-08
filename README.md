@@ -1,17 +1,63 @@
-<p>
-  This project explores the application of <strong>Deep Learning</strong> to 
-  anticipate surgeons’ next actions during <em>laparoscopic procedures</em>, 
-  contributing to the emerging field of <strong>intra-operative AI</strong>. 
-  While AI has made major advances in <strong>medical diagnostics</strong>, 
-  its integration into the <strong>surgical workflow</strong> remains limited. 
-  This work aims to bridge that gap.
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Predicting Surgeons’ Next Actions with Deep Learning</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      color: #333;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    em {
+      color: #555;
+    }
+
+    strong {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Predicting Surgeons’ Next Actions with Deep Learning</h1>
+
+  <p>
+    This project explores the application of <strong>Deep Learning</strong> to 
+    anticipate surgeons’ next actions during <em>laparoscopic procedures</em>, 
+    contributing to the emerging field of <strong>intra-operative AI</strong>. 
+    While AI has made major advances in <strong>medical diagnostics</strong>, 
+    its integration into the <strong>surgical workflow</strong> remains limited. 
+    This work aims to bridge that gap.
+  </p>
+
+  <h2>Model Architecture</h2>
+  <ul>
+    <li><strong>ResNet-50</strong> feature extractor</li>
+    <li><strong>Transformer encoder</strong> for temporal understanding</li>
+    <li><strong>GPT-2-style decoder</strong> for anticipation</li>
+  </ul>
+
+</body>
+</html>
 
 
-Model Architecture
-  ResNet-50 feature extractor
-  Transformer encoder (temporal understanding)
-  GPT-2-style decoder for anticipation
 (Include diagram here or link to docs/model_architecture.png)
 
 | Metric                  | Value     |
