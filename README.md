@@ -19,8 +19,8 @@
 </body>
 </html>
 
+![image](https://github.com/user-attachments/assets/04e1fac7-0c10-45ce-9205-857467106640)
 
-(Include diagram here or link to docs/model_architecture.png)
 
 | Metric                  | Value     |
 | ----------------------- | --------- |
