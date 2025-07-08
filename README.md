@@ -131,7 +131,7 @@
   </thead>
   <tbody>
     <tr>
-      <td>Tripnet [14]</td>
+      <td>Tripnet</td>
       <td>74.6</td>
       <td>42.9</td>
       <td>32.2</td>
@@ -140,7 +140,7 @@
       <td>23.4</td>
     </tr>
     <tr>
-      <td>Attention Tripnet [12]</td>
+      <td>Attention Tripnet</td>
       <td>77.1</td>
       <td>43.4</td>
       <td>30.0</td>
@@ -149,7 +149,7 @@
       <td>25.5</td>
     </tr>
     <tr>
-      <td>RDV [12]</td>
+      <td>RDV</td>
       <td>77.5</td>
       <td>47.5</td>
       <td>37.7</td>
@@ -158,7 +158,7 @@
       <td>32.7</td>
     </tr>
     <tr>
-      <td>MT-FiST [13]</td>
+      <td>MT-FiST</td>
       <td>82.1</td>
       <td>51.5</td>
       <td>45.5</td>
