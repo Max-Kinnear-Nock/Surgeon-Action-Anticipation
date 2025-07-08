@@ -38,7 +38,7 @@
   Below is a breakdown of each component:
 </p>
 
-<h3>🛠Instrument (I)</h3>
+<h3>Instrument (I)</h3>
 <p>Tool being used in the action:</p>
 <ul>
   <li>grasper</li>
