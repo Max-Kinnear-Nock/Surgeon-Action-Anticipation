@@ -95,7 +95,8 @@
   </li>
 </ul>
 
-![image](https://github.com/user-attachments/assets/ed3c4455-fcf0-42dc-ac03-526d19d99799)
+![image](https://github.com/user-attachments/assets/04b8b4b2-7a3e-4ca9-9181-323e7e5797bb)
+
 
 <p>
   <strong>Above Example:</strong> Each frame is read left to right. Above each frame: frame number. Below:
