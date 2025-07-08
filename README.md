@@ -87,8 +87,8 @@
 
 <pre><code>&lt;bipolar, coagulate, liver&gt;</code></pre>
 <p>
-  This indicates the <strong>grasper</strong> is being used to <strong>retract</strong> 
-  the <strong>gallbladder</strong> in that frame.
+  This indicates the <strong>bipolar</strong> is being used to <strong>coagulate</strong> 
+  the <strong>liver</strong> in that frame.
 </p>
 
 
