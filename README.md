@@ -1,3 +1,9 @@
+**TL;DR**  
+> I built an AI model that can predict what a surgeon will do next during keyhole surgery using deep learning.  
+> It analyses real surgical videos to anticipate tool use, actions, and anatomy being operated on, which could help improve surgical training or assist during operations.
+
+ 
+ 
  <h1>Predicting Surgeons’ Next Actions with Deep Learning</h1>
 
   <p>
