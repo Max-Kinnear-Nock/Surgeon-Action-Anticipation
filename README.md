@@ -80,6 +80,36 @@
   <li>Each ablation ran for 5 epochs for efficient comparison.</li>
 </ul>
 
+<h3>Qualitative Analysis</h3>
+
+<p>
+  The model’s behaviour is qualitatively assessed through two visual methods:
+</p>
+
+<ul>
+  <li>
+    <strong>Video Playback:</strong> A custom Python program displays the <em>last recognised frame</em> and the <em>next 10 anticipated frames</em>, helping evaluate temporal consistency in predictions.
+  </li>
+  <li>
+    <strong>Block Graphs:</strong> These show predicted and ground truth action triplets across 11 frames (1 recognised + 10 predicted), with triplet predictions aligned vertically per frame.
+  </li>
+</ul>
+
+![image](https://github.com/user-attachments/assets/ed3c4455-fcf0-42dc-ac03-526d19d99799)
+
+<p>
+  <strong>Figure 1 Example:</strong> Each frame is read left to right. Above each frame: frame number. Below:
+</p>
+<ul>
+  <li><strong>Center row:</strong> Model's predicted triplet sequences.</li>
+  <li><strong>Bottom row:</strong> Ground truth triplet sequences.</li>
+</ul>
+
+<p>
+  The red vertical line indicates the division between recognition (left) and anticipation (right). Each coloured block represents a distinct triplet (e.g. grey = <code>&lt;null_instrument, null_verb, null_target&gt;</code>).
+</p>
+
+
 
 
 
