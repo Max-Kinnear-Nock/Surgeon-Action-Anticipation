@@ -111,17 +111,86 @@
 </p>
 
 
+<h3>📊 4.1 Accuracy Comparison</h3>
 
+<p>
+  The table below compares mAP scores for <strong>component detection</strong> (I, V, T) and <strong>triplet association</strong> (IV, IT, IVT) across state-of-the-art models and our proposed approach.
+</p>
 
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>mAP I</th>
+      <th>mAP V</th>
+      <th>mAP T</th>
+      <th>mAP IV</th>
+      <th>mAP IT</th>
+      <th>mAP IVT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tripnet [14]</td>
+      <td>74.6</td>
+      <td>42.9</td>
+      <td>32.2</td>
+      <td>27.0</td>
+      <td>28.0</td>
+      <td>23.4</td>
+    </tr>
+    <tr>
+      <td>Attention Tripnet [12]</td>
+      <td>77.1</td>
+      <td>43.4</td>
+      <td>30.0</td>
+      <td>32.3</td>
+      <td>29.7</td>
+      <td>25.5</td>
+    </tr>
+    <tr>
+      <td>RDV [12]</td>
+      <td>77.5</td>
+      <td>47.5</td>
+      <td>37.7</td>
+      <td>39.4</td>
+      <td>39.6</td>
+      <td>32.7</td>
+    </tr>
+    <tr>
+      <td>MT-FiST [13]</td>
+      <td>82.1</td>
+      <td>51.5</td>
+      <td>45.5</td>
+      <td>37.1</td>
+      <td>43.1</td>
+      <td>35.8</td>
+    </tr>
+    <tr>
+      <td><strong>Ours (Recognition)</strong></td>
+      <td>74.7</td>
+      <td>49.7</td>
+      <td>35.6</td>
+      <td>32.8</td>
+      <td>27.0</td>
+      <td>23.7</td>
+    </tr>
+    <tr>
+      <td><strong>Ours (Anticipation)</strong></td>
+      <td>63.6</td>
+      <td>49.6</td>
+      <td>38.6</td>
+      <td>36.0</td>
+      <td>30.9</td>
+      <td><strong>29.0</strong></td>
+    </tr>
+  </tbody>
+</table>
 
+<p>
+  <em>Table: mAP scores for individual components (Instrument, Verb, Target) and their triplet associations, comparing baseline models with our approach.</em>
+</p>
 
-| Metric                  | Value     |
-| ----------------------- | --------- |
-| mAP for action triplets | 29.0      |
-| Optimal context length  | 10 frames |
-| Prediction horizon      | 4 frames  |
-
-(Add visualizations or performance charts if available.)
 
 📁 Repository Contents
 Folder	Description
