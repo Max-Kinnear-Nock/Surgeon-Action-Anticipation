@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Surgeon Action Anticipation</title>
+<h1>Surgeon Action Anticipation</h1>
 </head>
 <body>
 
-<h1>Surgeon Action Anticipation</h1>
 
 <h2>TL;DR</h2>
 <blockquote>
