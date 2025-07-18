@@ -49,7 +49,7 @@ python evaluate.py --config config.yaml
   </li>
 </ul>
 <p>
-  To use: Place video frames in <code>data/videos/</code> and annotations in <code>data/labels/</code>.
+  To use: Write file path into yaml 'data_path' with the format: <code>data/videos/</code> and annotations in <code>data/labels/</code> with the label_mapping.txt.
 </p>
 
 <h2>Action Triplet Format: &lt;Instrument, Verb, Target&gt;</h2>
