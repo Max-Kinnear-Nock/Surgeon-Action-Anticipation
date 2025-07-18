@@ -1,0 +1,41 @@
+train:
+  task: [0]
+  gpu: [0]
+  recognitionLength: 9
+  anticipationLength: 1
+  batchSize: 10
+  optimiserUsed: 1
+  multi: 1
+  epochs: 1
+  workNumber: 2
+  learningRate: 0.001
+  multiChannelLoss1: 0.005
+  multiChannelLoss2: 0.01
+  momentum: 0.9
+  weightdecay: 0.0005
+  dampening: 0
+  nesterov: false
+  sgdadjust: 1
+  sgdstep: 5
+  sgdgamma: 0.1
+  freeze: false
+  randomSeed: 42
+
+eval:
+  path: weights\McDecoder\0717-2129\best_model_epoch_1.pth
+
+model:
+  name: McDecoder
+  input_dim: 1024
+  inter_dim: 420
+  num_heads: 8
+  num_layers: 4
+  dropout_early: 0.1
+  dropout_late: 0.3
+  model_size_ratio: 2
+  mc_instrument_extractor: 2040
+  mc_verb_extractor: 2000
+  target_shape: 2040
+  patch_size: 256
+  number_of_patches: 16
+  classifier_dim: 2040
