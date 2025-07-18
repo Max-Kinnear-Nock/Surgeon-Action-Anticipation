@@ -114,7 +114,7 @@ python evaluate.py --config config.yaml
 <h3>Data Split</h3>
 <ul>
   <li>The official split is: 70% training, 10% validation, and 20% test (as per the CholecT50 challenge).</li>
-  <li>This version uses a custom split due to long training times.</li>
+  <li>This is a demo version and so it uses a custom data loader and split due to long training times.</li>
   <li>Sliding window sequences are split 70/20/10 for training, validation, and testing.</li>
 </ul>
 
