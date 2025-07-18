@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <h1>Surgeon Action Anticipation</h1>
+<h1>Surgeon Action Anticipation</h1>
 </head>
 <body>
+
 
 <h2>TL;DR</h2>
 <blockquote>
@@ -12,7 +13,22 @@
   Trained on real laparoscopic videos, the model anticipates tool use, surgical actions, and target anatomy — offering potential support for surgical training and intra-operative assistance.
 </blockquote>
 
-<h1>Predicting Surgeons’ Next Actions with Deep Learning</h1>
+<h2>Installation</h2>
+<pre><code>git clone https://github.com/Max-Kinnear-Nock/Surgeon-Action-Anticipation.git
+cd Surgeon-Action-Anticipation
+pip install -r requirements.txt
+</code></pre>
+
+<h2>Running the Model</h2>
+<pre><code># Train the model
+python main.py --config config.yaml
+
+# Evaluate on the test set
+python evaluate.py --config config.yaml
+</code></pre>
+<p>Ensure you update <code>config.yaml</code> to point to your dataset location.</p>
+
+<h2>Predicting Surgeons’ Next Actions with Deep Learning</h2>
 <p>
   This project explores the use of deep learning to anticipate surgeons’ next moves during laparoscopic procedures, contributing to the field of intra-operative AI. While AI is increasingly used for medical diagnostics, its integration into the surgical workflow remains limited. This work aims to bridge that gap by modeling both current and future surgical actions from egocentric surgical video.
 </p>
@@ -82,7 +98,7 @@
 </ul>
 
 <h3>Example</h3>
-<pre><code>&lt;bipolar, coagulate, liver&gt;</code></pre>
+<pre><code>&lt;bipolar, coagulates, liver&gt;</code></pre>
 
 <h2>Model Architecture</h2>
 <ul>
@@ -97,25 +113,18 @@
 
 <h3>Data Split</h3>
 <ul>
-  <li>
-    The official split is: 70% training, 10% validation, and 20% test (as per the CholecT50 challenge).
-  </li>
-  <li>
-    For demonstration purposes, this version does not use the official split due to long and resource-intensive training times.
-  </li>
-  <li>
-    Instead, a custom data loader was implemented, splitting the sliding window sequences into 70/20/10 for training, validation, and testing.
-  </li>
+  <li>The official split is: 70% training, 10% validation, and 20% test (as per the CholecT50 challenge).</li>
+  <li>This version uses a custom split due to long training times.</li>
+  <li>Sliding window sequences are split 70/20/10 for training, validation, and testing.</li>
 </ul>
-
 
 <h3>Preprocessing and Augmentation</h3>
 <ul>
   <li>Resize to 250x250, center crop to 224x224</li>
   <li>Random rotation ±5°, horizontal flip</li>
-  <li>Brightness, contrast, saturation ±10 percent</li>
-  <li>Hue ±5 percent</li>
-  <li>Normalised RGB channels with dataset mean and std</li>
+  <li>Brightness, contrast, saturation ±10%</li>
+  <li>Hue ±5%</li>
+  <li>Normalized RGB channels with dataset mean and std</li>
   <li>Sliding window sampling for temporal context</li>
 </ul>
 
@@ -200,7 +209,7 @@
 
 <h2>License</h2>
 <p>
-  MIT / Academic Use Only (adjust as needed)
+  MIT / Academic Use Only — please contact for commercial or clinical use.
 </p>
 
 </body>
