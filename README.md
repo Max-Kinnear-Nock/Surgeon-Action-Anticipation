@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Surgeon Action Anticipation</title>
+  <h1>Surgeon Action Anticipation</h1>
 </head>
 <body>
 
@@ -171,7 +171,6 @@
 <table border="1">
   <tr><th>Folder</th><th>Description</th></tr>
   <tr><td>models/</td><td>Model components</td></tr>
-  <tr><td>training/</td><td>Training and evaluation scripts</td></tr>
   <tr><td>utils/</td><td>Metrics and helper functions</td></tr>
 </table>
 
