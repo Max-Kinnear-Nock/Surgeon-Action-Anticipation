@@ -107,7 +107,7 @@
   <li>Brightness, contrast, saturation ±10 percent</li>
   <li>Hue ±5 percent</li>
   <li>Normalised RGB channels with dataset mean and std</li>
-  <li>Sliding window sampling for temporal context (13 frames at 1 fps)</li>
+  <li>Sliding window sampling for temporal context</li>
 </ul>
 
 <h3>Loss Functions</h3>
