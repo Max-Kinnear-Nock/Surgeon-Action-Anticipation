@@ -32,6 +32,7 @@
   the development of high-accuracy intra-operative AI systems. Although all procedures come 
   from the same hospital (limiting generalisability), CholecT50 remains one of the most detailed 
   open benchmarks in <em>Surgical Data Science (SDS)</em>.
+  can be accsed here: https://github.com/CAMMA-public/cholect50/blob/master/docs/README-Downloads.md
 </p>
 
 <h2>Action Triplet Format: &lt;Instrument, Verb, Target&gt;</h2>
