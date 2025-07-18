@@ -3,7 +3,7 @@ train:
   gpu: [0]
   recognitionLength: 9
   anticipationLength: 1
-  batchSize: 10
+  batchSize: 8
   optimiserUsed: 1
   multi: 1
   epochs: 1

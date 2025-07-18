@@ -5,6 +5,8 @@ import time
 from pathlib import Path
 from copy import deepcopy
 
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+
 import torch
 import torch.optim as optim
 from torch.nn import DataParallel

@@ -2,7 +2,6 @@ import os
 import torch
 import time
 from pathlib import Path
-import random
 
 from models import model_provider
 import Utils.ivtmetrics.recognition as ivt_metrics
