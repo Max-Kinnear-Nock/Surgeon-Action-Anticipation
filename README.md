@@ -138,7 +138,7 @@ python evaluate.py --config config.yaml
 <h3>Training</h3>
 <ul>
   <li>20 epochs on NVIDIA A100 GPU</li>
-  <li>AdamW optimizer with learning rate: 1e-4 (ResNet), 1e-3 (others)</li>
+  <li>AdamW optimizer with learning rate: 1e-4 (ResNet (as its pretrained)), 1e-3 (others)</li>
 </ul>
 
 <h3>Evaluation</h3>
