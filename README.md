@@ -97,8 +97,17 @@
 
 <h3>Data Split</h3>
 <ul>
-  <li>70 percent training, 10 percent validation, 20 percent test (challenge split)</li>
+  <li>
+    The official split is: 70% training, 10% validation, and 20% test (as per the CholecT50 challenge).
+  </li>
+  <li>
+    For demonstration purposes, this version does not use the official split due to long and resource-intensive training times.
+  </li>
+  <li>
+    Instead, a custom data loader was implemented, splitting the sliding window sequences into 70/20/10 for training, validation, and testing.
+  </li>
 </ul>
+
 
 <h3>Preprocessing and Augmentation</h3>
 <ul>
