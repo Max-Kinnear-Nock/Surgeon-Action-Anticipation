@@ -223,9 +223,10 @@ def train_model(train_ds, val_ds, test_ds):
 
 # ------------------------------ Main ------------------------------
 def main():
-    train_ds = CholecT50Dataset("Data", recognition_length, anticipation_length, mode='train')
-    val_ds = CholecT50Dataset("Data", recognition_length, anticipation_length, mode='val')
-    test_ds = CholecT50Dataset("Data", recognition_length, anticipation_length, mode='test')
+    data_path = train_config['data_path']
+    train_ds = CholecT50Dataset(data_path, recognition_length, anticipation_length, mode='train')
+    val_ds = CholecT50Dataset(data_path, recognition_length, anticipation_length, mode='val')
+    test_ds = CholecT50Dataset(data_path, recognition_length, anticipation_length, mode='test')
     train_model(train_ds, val_ds, test_ds)
 
 if __name__ == "__main__":

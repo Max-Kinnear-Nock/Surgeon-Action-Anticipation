@@ -20,9 +20,10 @@ train:
   sgdgamma: 0.1
   freeze: false
   randomSeed: 42
+  data_path: 
 
 eval:
-  path: weights\McDecoder\0717-2129\best_model_epoch_1.pth
+  model_wieght_path: 
 
 model:
   name: McDecoder

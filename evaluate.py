@@ -2,6 +2,7 @@ import os
 import torch
 import time
 from pathlib import Path
+import yaml
 
 from models import model_provider
 import Utils.ivtmetrics.recognition as ivt_metrics
@@ -12,9 +13,13 @@ from Utils.reproducabiltiy import seed_everything
 
 
 def main():
+    # === Fetch the wieght path ===
+    with open("config.yaml", "r") as f:
+        config = yaml.safe_load(f)
+    weights_path = config['eval']['model_wieght_path']
+    data_path = config['train']['data_path']
+    
     # === Load checkpoint and config from inside ===
-    weights_path = "weights/McDecoder/0717-2129/best_model_epoch_1.pth"  # or wherever your model is
-
     assert os.path.isfile(weights_path), f"Checkpoint not found at {weights_path}"
     checkpoint = torch.load(weights_path, map_location='cpu')  # safer to start on CPU
     config = checkpoint['config']
@@ -49,7 +54,7 @@ def main():
 
     # === Load test dataset ===
     test_dataset = CholecT50Dataset(
-        'Data',
+        data_path,
         recognition_length=recognition_length,
         anticipation_length=anticipation_length,
         mode='test'
